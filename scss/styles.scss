@@ -1,0 +1,20 @@
+$primary: #f9f9f9; //off-white
+$secondary: #1d1d1d; //almost black
+$link: #990000; //dark red
+$highlight: #cc0000; //bright red
+
+body {
+  background-color: $primary;
+  color: $secondary;
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  color: $highlight;
+  text-align: center;
+}
+
+a {
+  color: $link;
+}
